@@ -1,0 +1,1133 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Cute Font', sans-serif;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 100;
+  background-image: url("./assets/pictures/strek.png");
+  background-size: cover;
+  background-color: rgb(39, 38, 38);
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  height: auto;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* fetch-card css */
+.btnC {
+  display: flex;
+}
+
+.card {
+  background-color: #0a151f7a;
+  box-shadow: 1px 1px 5px rgba(95, 92, 92, 0.377);
+  max-width: 15rem;
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex: 1 3;
+}
+
+.container3 {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center
+}
+
+.cardContainer {
+  display: flex;
+}
+
+/* fetch-card css */
+.card-body {
+  background-color: #43556930;
+  border-radius: 4px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 3;
+  align-items: center;
+}
+
+.card-body .card-title,
+.card-text,
+.btn {
+  /* border: 1px solid red;-------------------------------- */
+  flex-shrink: 3;
+}
+
+.btn {
+  width: 7rem;
+  margin: 1%;
+  padding: 2%;
+}
+
+/* fetch-card css */
+.card-img-top {
+  padding: 6%;
+  width: 75%;
+  height: auto;
+}
+
+header nav li {
+  display: inline;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+header a {
+  color: black;
+}
+
+header {
+  text-align: center;
+  background-color: black;
+  height: 11vh;
+}
+
+.active {
+  text-shadow: 1px 1px 2px rgb(13, 178, 243), 0 0 1em rgb(9, 230, 182), 0 0 0.2em rgb(230, 230, 235);
+}
+
+.profilepic {
+  padding-top: 12rem;
+  width: 15vh;
+  height: auto;
+}
+
+.-kortinfo {
+  max-width: 45%;
+  display: block;
+  padding: 1rem;
+  margin: 2rem;
+  text-align: center;
+  color: white;
+  padding-top: 0rem;
+}
+
+.i-hemlogo {
+  width: 10vh;
+  height: auto;
+  position: relative;
+  top: -4rem;
+  left: 15rem;
+}
+
+.i-kortinfo h2 {
+  display: block;
+  font-size: 1.3rem;
+  min-width: 15rem;
+  position: relative;
+  top: 0rem;
+  left: 5rem;
+  color: white;
+}
+
+.i-kortinfo p {
+  display: block;
+  font-size: 1.3rem;
+  position: relative;
+  top: -5rem;
+  left: 3rem;
+  color: white;
+}
+
+.nameintro {
+  padding-top: 90%;
+}
+
+.hemlogo {
+  width: 10vh;
+  height: auto;
+  position: relative;
+  top: 8rem;
+  left: 12rem;
+}
+
+.kortinfo h2 {
+  display: block;
+  margin-top: 4rem;
+  font-size: 1.3rem;
+  min-width: 15rem;
+  position: relative;
+  top: 9rem;
+  left: 5rem;
+}
+
+.kortinfo p {
+  display: block;
+  font-size: 1.3rem;
+  position: relative;
+  top: 4rem;
+  left: 3rem;
+}
+
+main {
+  text-align: center;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+}
+
+aside {
+  width: 30%;
+  /* height: 100vh; */
+}
+
+footer {
+  text-align: center;
+  min-height: 5vh;
+}
+
+footer a:hover {
+  font-weight: 800;
+}
+
+li {
+  padding: 5%;
+}
+
+.logoContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 7rem;
+  padding-bottom: 3rem;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 17%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgb(11, 14, 48);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+nav ul li a {
+  display: block;
+  text-decoration: none;
+  color: rgb(240, 240, 231);
+  position: relative;
+}
+
+h3 {
+  padding-bottom: 1rem;
+  color: rgb(212, 212, 212);
+}
+
+nav ul li a:hover {
+  color: aliceblue;
+  text-transform: uppercase;
+}
+
+.logo {
+  padding-left: 3%;
+  padding-bottom: 0rem;
+  width: 4vh;
+  height: 4vh;
+}
+
+.logo:hover {
+  transform: scale(1.2);
+}
+
+h2 {
+  display: block;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.kortinfo {
+  max-width: 45%;
+  display: block;
+  padding: 1rem;
+  margin: 2rem;
+  text-align: center;
+  color: white;
+  padding-top: 0rem;
+}
+
+.aboutmeinfo {
+  max-width: 35%;
+  display: flow-root;
+  padding: 2rem;
+  margin: 2rem;
+  text-align: center;
+  color: white;
+  line-height: 1.7rem;
+  padding-top: 7rem;
+}
+
+.aboutmeinfo p,
+h3 {
+  text-align: center;
+  position: relative;
+  left: 0rem;
+}
+
+.nav-mm {
+  font-size: larger;
+  padding: 0.6rem;
+}
+
+.container {
+  margin-top: 4rem;
+  padding-top: 2rem;
+  padding-left: 0.7rem;
+  height: 12rem;
+  width: 100%;
+  display: flex;
+  position: relative;
+  max-width: 100%;
+}
+
+/* fetch-card css */
+.box3 {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  height: auto;
+  flex-wrap: wrap;
+  margin: 2rem;
+  gap: 1rem;
+  padding: 1rem;
+  margin-left: 8rem;
+}
+
+/* fetch-card css */
+.box3 h5,
+h4 {
+  text-shadow: 1px 1px #ffcc002a;
+  color: rgba(238, 238, 232, 0.418);
+  font-size: 1.2rem;
+}
+
+/* fetch-card css */
+.box3 a {
+  text-shadow: 1px 1px #ffcc0081;
+  font-size: 0.7rem;
+}
+.card-link{
+  padding: 0.7rem 0;
+  width: 100%;
+}
+
+.box2 {
+  margin-left: 1rem;
+  height: 100%;
+  width: 50%;
+}
+
+.box1 {
+  margin-right: 1rem;
+  height: 100%;
+  width: 50%;
+}
+
+.box2,
+.box1 {
+  flex-grow: 2;
+  flex-shrink: 2;
+  flex-basis: 50%;
+}
+
+.apipic,
+.bankpic {
+  margin-right: 1rem;
+  height: 250px;
+  width: 250px;
+  border-radius: 5%;
+}
+
+.apipic:hover,
+.bankpic:hover {
+  transform: scale(1.1);
+}
+
+/* ---POP UP MODAL ------------------------------------------ */
+
+.popup {
+  /* display: none;
+  opacity: 0;
+  pointer-events: none; */
+  transition: 0.4s;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 99;
+  background-color: rgba(0, 0, 0, 0.2);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pop-inner {
+  background-color: rgba(12, 11, 11);
+  padding: 32px 16px;
+  width: 40%;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  max-width: 45rem;
+  border-radius: 16px;
+  box-shadow: 0px 6px 12px rgb(20, 20, 20);
+}
+
+.pop-inner h2 {
+  color: white;
+}
+
+.pop-inner p {
+  font-size: medium;
+  color: #fab62d;
+  font-weight: lighter;
+}
+
+/* .popup:target {
+  opacity: 1;
+  pointer-events: all;
+} */
+
+.pbutton {
+  margin-top: 10px;
+  padding: 7px 12px;
+  background-color: #212529;;
+  border-radius: 10px;
+  display: inline-block;
+  font-size: 1rem;
+  width: 6rem;
+}
+
+.modalB{
+  margin:0.5rem
+}
+
+.pbutton:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+/*------------------------------- TIMELINE*/
+.edutimeline {
+  position: relative;
+  max-width: 80%;
+  margin-top: 10rem;
+}
+
+/*container of text-box*/
+.educontainer {
+  padding: 2% 15%;
+  position: relative;
+  width: 100%;
+  animation: movedown 6s linear forwards;
+  opacity: 0;
+  z-index: 2;
+}
+
+/*animation how the box shows*/
+/*at 0% it'll start at -30px, makes opacity to 1 and finishline is at 0px*/
+@keyframes movedown {
+  0% {
+    opacity: 1;
+    transform: translateY(-30px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+/*added a delay for each box animation
+when moved and be displayed at differnet time
+this way they appear when line reaches them.*/
+.educontainer:nth-child(2) {
+  animation-delay: 1s;
+}
+
+.educontainer:nth-child(3) {
+  animation-delay: 2s;
+}
+
+.educontainer:nth-child(4) {
+  animation-delay: 3s;
+}
+
+.educontainer:nth-child(5) {
+  animation-delay: 4s;
+}
+
+.educontainer:nth-child(6) {
+  animation-delay: 5s;
+}
+
+.text-box {
+  padding: 1% 1%;
+  /* background: rgb(212 212 212 / 24%); */
+  border: 1px solid rgba(169, 169, 169, 0.308);
+  position: relative;
+  border-radius: 6px;
+  font-size: 0.8rem;
+  width: 16rem;
+  left: -2%;
+}
+
+/*alinement the pic for left-box*/
+.left-container {
+  left: 4%;
+}
+
+/*alinement for right-box*/
+.right-container {
+  left: 15.2%;
+}
+
+/*alinement+adjusting the pic for left-box*/
+.educontainer .edupic {
+  position: absolute;
+  width: 5vh;
+  border-radius: 5rem;
+  right: -95px;
+  top: 22%;
+  z-index: 10;
+}
+
+/*alinement the pic for right-box*/
+.right-container .edupic {
+  left: -1.5rem;
+}
+
+/*timeline line*/
+.edutimeline::after {
+  content: "";
+  position: absolute;
+  width: 2px;
+  height: 100%;
+  background: #525151a6;
+  top: 0;
+  left: 18.2%;
+  margin-left: -3px;
+  z-index: 1;
+  animation: moveline 6s linear forwards;
+}
+
+/*animation how the line will shows*/
+/*at 0% it'll start at 0% height and finishline it'll be 100% tall*/
+@keyframes moveline {
+  0% {
+    height: 0;
+  }
+
+  100% {
+    height: 100%;
+  }
+}
+
+/*h2 in the box----------------------------*/
+.text-box h2 {
+  font-weight: 600;
+  font-size: 1.3rem;
+  color: #681622;
+}
+
+.text-box small {
+  display: inline-block;
+  margin-bottom: 1rem;
+  color: #974207;
+}
+
+.text-box p {
+  color: #cecaca;
+}
+
+.loadContainer {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* -----------------------------modal pop-up for eventlistener!!! */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+/* inner-modal */
+.modal-content {
+  background-color: rgba(0, 0, 0, 0.829);
+  margin: 15% auto;
+  padding: 25px;
+  width: 35%;
+  border-radius: 2%;
+  box-shadow: 2px 2px 7px darkgray;
+}
+
+/* X-button */
+.close {
+  color: white;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.close:hover,
+.close:focus {
+  color: rgb(241, 245, 6);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal:target {
+  display: block;
+}
+
+.contact-container {
+  height: 10vh;
+  display: contents;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-bottom: 6rem;
+  padding-top: 2rem;
+}
+
+/*making the input boxes align porperly*/
+.contact-left {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 10px;
+}
+
+/*designing the input boxes*/
+.contact-input {
+  width: 80%;
+  height: 50px;
+  border: none;
+  outline: none;
+  padding-left: 25px;
+  font-weight: 500;
+  color: #aaaaaa;
+  border-radius: 50px;
+}
+
+/*extra adjustment for textarea*/
+.contact-input textarea {
+  height: 140px;
+  padding-top: 15px;
+  border-radius: 20px;
+}
+
+/*highlight input box when you click in it*/
+.contact-input:focus {
+  box-shadow: 1px 1px 9px rgb(33, 238, 6);
+}
+
+.contact-input::placeholder {
+  color: darkgray;
+}
+
+.contact-left button {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  margin-left: 0.7rem;
+  padding: 10px 30px;
+  background-color: rgba(21, 27, 88, 0.596);
+  color: white;
+  border-radius: 10px;
+  font-size: 1rem;
+  width: max-content;
+  border: none;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.contact-left h3 {
+  color: yellow;
+}
+
+@media screen and (max-width: 1111px) {
+  .hemlogo {
+    width: 5vh;
+    height: auto;
+    position: relative;
+    left: 10rem;
+    top: 8rem;
+  }
+
+  .kortinfo h2 {
+    display: block;
+    margin-top: 4rem;
+    font-size: 1.3rem;
+    min-width: 15rem;
+    position: relative;
+    top: 9rem;
+    color: white;
+  }
+
+  .kortinfo p {
+    display: block;
+    font-size: 1.3rem;
+    position: relative;
+    top: 6rem;
+    left: 3rem;
+  }
+
+  .aboutmeinfo p,
+  h3 {
+    text-align: center;
+    position: relative;
+    left: 0rem;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .container {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    height: 12rem;
+    left: -2rem;
+    margin-bottom: 2rem;
+  }
+
+  .i-kortinfo h2 {
+    display: block;
+    font-size: 1.3rem;
+    min-width: 15rem;
+    position: relative;
+    top: 0rem;
+    left: 1rem;
+    color: white;
+  }
+
+  .i-hemlogo {
+    width: 10vh;
+    height: auto;
+    position: relative;
+    top: -4rem;
+    left: 10rem;
+  }
+
+  .i-kortinfo p {
+    display: block;
+    font-size: 1.3rem;
+    position: relative;
+    top: -5rem;
+    left: 0rem;
+    color: white;
+  }
+
+  .i-kortinfo #mojtaba {
+    display: block;
+  }
+
+  .kortinfo h2 {
+    display: block;
+    margin-top: 4rem;
+    font-size: 1.3rem;
+    min-width: 15rem;
+    position: relative;
+    top: 9rem;
+  }
+
+  .aboutmeinfo {
+    padding: 2rem;
+    margin: 0;
+    max-width: 45%;
+  }
+
+  .aboutmeinfo p,
+  h3 {
+    text-align: center;
+    position: relative;
+    left: 0rem;
+  }
+
+  #mojtaba {
+    display: none;
+  }
+
+  .hemlogo {
+    width: 5vh;
+    height: auto;
+    position: relative;
+    left: 12rem;
+    top: 9rem;
+  }
+
+  .knappen1,
+  .knappen2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .bilden1,
+  .bilden2 {
+    display: block;
+    max-width: 30rem;
+    margin-bottom: 11rem;
+  }
+
+  .bankpic,
+  .apipic {
+    height: 20vh;
+    width: 20vh;
+    border-radius: 5%;
+  }
+
+  .box1,
+  .box2 {
+    margin-bottom: 4rem;
+  }
+
+  nav ul {
+    width: 9rem;
+  }
+
+  footer {
+    position: relative;
+    bottom: 1rem;
+    left: 50%;
+    display: inline-block;
+  }
+
+  .popup {
+    bottom: 40rem;
+    top: 40%;
+  }
+
+  .pop-inner {
+    font-size: medium;
+    padding: 1;
+    /* height: 17vh; */
+  }
+
+  /*EduTime line---------------------------1000px--media-query-------*/
+  .text-box {
+    font-size: 0.9rem;
+    width: 10rem;
+    left: -87%
+  }
+
+  .text-box h2 {
+    font-size: 1rem;
+    font-weight: 600;
+  }
+
+  .edutimeline {
+    max-width: 70%;
+    margin-top: 9rem;
+    left: -3rem;
+  }
+
+  .edutimeline::after {
+    left: 118%;
+  }
+
+  .left-container {
+    left: 46%;
+  }
+
+  .educontainer .edupic {
+    right: -30%
+  }
+
+  .left-container-arrow {
+    top: 15px;
+  }
+
+  .right-container-arrow {
+    top: 16px;
+  }
+
+  .right-container .edupic {
+    left: -64%;
+  }
+
+  .educontainer {
+    width: 46%;
+  }
+
+  .right-container {
+    left: 132.2%;
+  }
+
+}
+
+@media screen and (max-width: 600px) {
+  .aboutmeinfo {
+    max-width: 45%;
+    display: flow-root;
+    padding: 1rem;
+    margin: 2rem;
+    text-align: center;
+    color: white;
+    padding-top: 3rem;
+    font-size: x-small;
+    line-height: 1.2rem;
+    margin-left: 9rem;
+  }
+
+  .aboutmeinfo p,
+  h3 {
+    text-align: center;
+    position: relative;
+    left: 0rem;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    height: 15rem;
+    left: 0rem;
+    margin-bottom: 2rem;
+    width: 1rem;
+    height: 10rem;
+  }
+
+  .kortinfo {
+    display: inline-block;
+    height: auto;
+    width: auto;
+    font-size: x-small;
+    margin: 1rem 0;
+  }
+
+  .kortinfo h2 {
+    display: block;
+    font-size: 0.7rem;
+    min-width: 8rem;
+    position: relative;
+    top: 8rem;
+    left: 0;
+  }
+
+  .hemlogo {
+    width: 4vh;
+    height: auto;
+    position: relative;
+    left: 5.5rem;
+    top: 7.5rem;
+  }
+
+  .kortinfo p {
+    display: none;
+  }
+
+  .myprojects {
+    width: 65%;
+    height: 100%;
+    display: inline-block;
+  }
+
+  .bankpic,
+  .apipic {
+    width: 15vh;
+    height: 15vh;
+    position: absolute;
+    left: 2rem;
+  }
+
+  .pbutton {
+    margin-left: 10rem;
+    font-size: 0.6rem;
+  }
+
+  .knappen1,
+  .knappen2 {
+    position: absolute;
+    left: -6rem;
+    margin-top: 8rem;
+  }
+
+  .popup .pbutton {
+    margin-left: 0;
+  }
+
+  .pop-inner {
+    padding-bottom: 2rem;
+    padding-top: 1rem;
+    align-content: center;
+    height: fit-content;
+  }
+
+  .pop-inner h2 {
+    color: white;
+  }
+
+  .i-kortinfo h2 {
+    display: block;
+    font-size: 0.6rem;
+    min-width: 13rem;
+    position: relative;
+    top: 10rem;
+    left: 1rem;
+    color: white;
+  }
+
+  .i-hemlogo {
+    width: 7vh;
+    height: auto;
+    position: relative;
+    top: 4rem;
+    left: 4rem;
+  }
+
+  .i-kortinfo p {
+    display: block;
+    font-size: 0.7rem;
+    position: relative;
+    top: 7rem;
+    left: 4rem;
+    color: white;
+  }
+
+  .nameintro {
+    position: relative;
+    width: 50%;
+  }
+
+  .i-kortinfo {
+    margin-left: 4rem;
+  }
+
+  footer {
+    display: none;
+  }
+
+  /* fetch-card css */
+.box3 h5,
+h4 {
+  font-size: 1rem;
+}
+.box3{
+  margin-top: 40rem;
+}
+
+.btn {
+  width: 5.5rem;
+  margin: 1% 0%;
+  padding: 2% 0%;
+}
+
+  /*----------------------------------For timeline*/
+  .edutimeline {
+    margin-top: 50px;
+    left: -5%;
+    max-width: 5%;
+
+  }
+
+  .edutimeline::after {
+    left: 170%;
+  }
+
+  .educontainer {
+    width: 6%;
+    padding-left: 0rem;
+    padding-right: 0rem;
+  }
+
+  .educontainer .edupic {
+    top: 43%;
+    width: 4vh;
+  }
+
+  .text-box {
+    font-size: 0.8rem;
+    padding-left: 1px;
+    padding-right: 1px;
+    width: 8rem;
+    left: 254%;
+    margin-top: 1.5rem;
+  }
+
+  .text-box small {
+    margin-bottom: 10px;
+  }
+
+  .right-container {
+    left: 221%;
+  }
+
+  .left-container .edupic,
+  .right-container .edupic {
+    left: -31px;
+  }
+
+  .left-container-arrow,
+  .right-container-arrow {
+    border-right: 15px solid #525151a6;
+    border-left: 0;
+    left: -15px;
+  }
+
+  .left-container {
+    left: 219%;
+  }
+
+  .left-container-arrow,
+  .right-container-arrow {
+    display: none;
+  }
+}
+
+/*-----------------Print */
+@media print {
+  .box3 {
+    display: inline-block;
+  }
+
+  .profilepic {
+    width: 10vh;
+    height: auto;
+  }
+
+  .aboutmeinfo {
+    max-width: 70%;
+    padding-top: 2rem;
+  }
+
+  footer {
+    display: none;
+  }
+}

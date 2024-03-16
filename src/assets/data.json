@@ -1,0 +1,70 @@
+[
+  {
+    "educations": [
+      {
+        "school":"ChasAcademy",
+        "year":"2023-Present",
+        "major":"C# .NET Fullstackdeveloper",
+        "img":"https://raw.githubusercontent.com/mmxzps/Lab2-Dynamisk-Sida/main/src/assets/pictures/chas-logo.png"
+      },
+      {
+        "school":"Mälardalens Tekniska Gymnasium",
+        "year":"2022-2023",
+        "major":"CNC operator",
+        "img":"https://raw.githubusercontent.com/mmxzps/Lab2-Dynamisk-Sida/main/src/assets/pictures/mtg-logo.jpg"
+      },
+      {
+        "school":"Scania Academy",
+        "year":"2021-2021",
+        "major":"Teamleader in production",
+        "img":"https://raw.githubusercontent.com/mmxzps/Lab2-Dynamisk-Sida/main/src/assets/pictures/scanialogo.png"
+      },
+      {
+        "school":"Lindeskolan",
+        "year":"2008-2012",
+        "major":"IT-program",
+        "img":"https://raw.githubusercontent.com/mmxzps/Lab2-Dynamisk-Sida/main/src/assets/pictures/linde-logo.png"
+      }
+    ]
+  },
+  {
+    "jobs":[
+        {
+          "title":"CNC-operator",
+          "year":"2022-Present",
+          "company":"Scania, Södertälje",
+          "img":"https://raw.githubusercontent.com/mmxzps/Lab2-Dynamisk-Sida/main/src/assets/pictures/scanialogo.png"
+        },
+        {
+          "title":"Workshop Technician",
+          "year":"2021-2022",
+          "company":"Scania, Södertälje",
+          "img":"https://raw.githubusercontent.com/mmxzps/Lab2-Dynamisk-Sida/main/src/assets/pictures/scanialogo.png"
+        },
+        {
+          "title":"Team Leader",
+          "year":"2019-2021",
+          "company":"Scania, Södertälje",
+          "img":"https://raw.githubusercontent.com/mmxzps/Lab2-Dynamisk-Sida/main/src/assets/pictures/scanialogo.png"
+        },
+        {
+          "title":"Material Handler",
+          "year":"2017-2019",
+          "company":"Scania, Södertälje",
+          "img":"https://raw.githubusercontent.com/mmxzps/Lab2-Dynamisk-Sida/main/src/assets/pictures/scanialogo.png"
+        },
+        {
+          "title":"Assembler",
+          "year":"2016-2017",
+          "company":"Meritor, Lindesberg",
+          "img":"https://raw.githubusercontent.com/mmxzps/Lab2-Dynamisk-Sida/main/src/assets/pictures/Meritor-logo.png"
+        },
+        {
+          "title":"Sales Representative",
+          "year":"2015-2016",
+          "company":"SalesGroup, Barcelona",
+          "img":"https://raw.githubusercontent.com/mmxzps/Lab2-Dynamisk-Sida/main/src/assets/pictures/salesgroup.jpg"
+        }
+    ]
+  }
+]
