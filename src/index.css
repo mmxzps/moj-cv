@@ -99,9 +99,10 @@ header {
 }
 
 .profilepic {
-  padding-top: 12rem;
+  margin-top: 12rem;
   width: 15vh;
   height: auto;
+  border-radius: 5rem;
 }
 
 .-kortinfo {

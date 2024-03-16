@@ -1,6 +1,6 @@
 import React from 'react'
 import { Outlet, Link, NavLink } from 'react-router-dom'
-import Thumbsup from '../assets/pictures/thumsup.png'
+import Thumbsup from '../assets/pictures/profb.png'
 
 
 const Layout = () => {
