@@ -3,13 +3,11 @@ import './script.js'
 
 const About = () => {
   const [ismodalVisible, setIsMobalVisible] = useState(false);
-
   const toggleModal=()=>{
     setIsMobalVisible(!ismodalVisible)
   }
   return (
     <>
-     
       <main>
         <div className="aboutmeinfo">
           <p>
@@ -39,6 +37,7 @@ const About = () => {
             potential
             <span id="collab"> collaborations!</span>
           </p>
+          
           {/*Modal pop up */}
           <div id="myModal" className="modal">
             <div className="modal-content">

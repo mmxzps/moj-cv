@@ -5,6 +5,7 @@ import Home from './pages/Home'
 import Projects from './pages/Projects'
 import Jobs from './pages/Jobs'
 import Educations from './pages/Educations'
+import Skills from './pages/Skills'
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
             <Route path="/projects" element={<Projects />} />
             <Route path="/jobs" element={<Jobs />} />
             <Route path="/educations" element={<Educations />} />
+            <Route path="/skills" element={<Skills />} />
           </Route>
         </Routes>
       </BrowserRouter>

@@ -26,6 +26,7 @@ const Layout = () => {
             <li><NavLink to="projects">Projects</NavLink></li>
             <li><NavLink to="jobs">Previous Jobs</NavLink></li>
             <li><NavLink to="educations">Educations</NavLink></li>
+            <li><NavLink to="skills">Skills</NavLink></li>
           </ul>
         </nav>
       </aside>

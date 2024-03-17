@@ -5,7 +5,6 @@ import csharp from "../assets/pictures/csharphem.png"
 const Home = () => {
   return (
     <>
-      
         <main>
           <div className="i-kortinfo">
             <div className="nameintro">
@@ -17,11 +16,6 @@ const Home = () => {
           </div>
         </main>
         <script src="../script.js"></script>
-
-        {/* <!--Script so the confetti can work--> */}
-        {/* <script src="https://cdn.jsdelivr.net/npm/js-confetti@latest/dist/js-confetti.browser.js"></script> */}
-      
-
     </>
   )
 }

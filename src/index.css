@@ -315,7 +315,8 @@ h3 {
   margin: 2rem;
   gap: 1rem;
   padding: 1rem;
-  margin-left: 8rem;
+  margin-left: 19rem;
+  margin-right: 2rem;
 }
 
 /* fetch-card css */
@@ -331,7 +332,8 @@ h4 {
   text-shadow: 1px 1px #ffcc0081;
   font-size: 0.7rem;
 }
-.card-link{
+
+.card-link {
   padding: 0.7rem 0;
   width: 100%;
 }
@@ -419,15 +421,16 @@ h4 {
 .pbutton {
   margin-top: 10px;
   padding: 7px 12px;
-  background-color: #212529;;
+  background-color: #212529;
+  ;
   border-radius: 10px;
   display: inline-block;
   font-size: 1rem;
   width: 6rem;
 }
 
-.modalB{
-  margin:0.5rem
+.modalB {
+  margin: 0.5rem
 }
 
 .pbutton:hover {
@@ -683,6 +686,39 @@ this way they appear when line reaches them.*/
   color: yellow;
 }
 
+.skillContainer {
+  height: 100vh;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.skillsImgContainer {
+  margin-left: 10rem;
+  margin-right: 1rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 80vh;
+  width: 101vh;
+  border-radius: 6rem;
+}
+
+.skillsLogo img {
+  width: auto;
+  height: 6rem;
+  display: flex;
+  margin: 3rem;
+}
+
+.skillsLogo {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 5rem;
+}
+
 @media screen and (max-width: 1111px) {
   .hemlogo {
     width: 5vh;
@@ -817,6 +853,10 @@ this way they appear when line reaches them.*/
   .box1,
   .box2 {
     margin-bottom: 4rem;
+  }
+
+  .box3 {
+    margin-left: 18%;
   }
 
   nav ul {
@@ -1036,19 +1076,21 @@ this way they appear when line reaches them.*/
   }
 
   /* fetch-card css */
-.box3 h5,
-h4 {
-  font-size: 1rem;
-}
-.box3{
-  margin-top: 40rem;
-}
+  .box3 h5,
+  h4 {
+    font-size: 1rem;
+  }
 
-.btn {
-  width: 5.5rem;
-  margin: 1% 0%;
-  padding: 2% 0%;
-}
+  .box3 {
+    margin-top: 40rem;
+    margin-left: 8rem;
+  }
+
+  .btn {
+    width: 5.5rem;
+    margin: 1% 0%;
+    padding: 2% 0%;
+  }
 
   /*----------------------------------For timeline*/
   .edutimeline {
@@ -1112,6 +1154,13 @@ h4 {
   }
 }
 
+@media screen and (max-width: 560px) {
+
+  .skillsLogo img {
+    height: 4rem;
+    margin: 1rem;
+}
+}
 /*-----------------Print */
 @media print {
   .box3 {
