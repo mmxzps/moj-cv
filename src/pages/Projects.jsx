@@ -22,10 +22,8 @@ function Projects() {
       .then((resp) => resp.json())
       .then((data) => {
         const filtered = data.filter(repo => projectIds.includes(repo.id));
-        setTimeout(() => {
           setProj(filtered)
           setisLoading(false)
-        }, 900)
       })
   }, [])
 

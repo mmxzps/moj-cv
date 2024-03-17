@@ -145,14 +145,6 @@ header {
   padding-top: 90%;
 }
 
-.hemlogo {
-  width: 10vh;
-  height: auto;
-  position: relative;
-  top: 8rem;
-  left: 12rem;
-}
-
 main {
   text-align: center;
   display: flex;
@@ -642,31 +634,6 @@ this way they appear when line reaches them.*/
 }
 
 @media screen and (max-width: 1111px) {
-  .hemlogo {
-    width: 5vh;
-    height: auto;
-    position: relative;
-    left: 10rem;
-    top: 8rem;
-  }
-
-  .kortinfo h2 {
-    display: block;
-    margin-top: 4rem;
-    font-size: 1.3rem;
-    min-width: 15rem;
-    position: relative;
-    top: 9rem;
-    color: white;
-  }
-
-  .kortinfo p {
-    display: block;
-    font-size: 1.3rem;
-    position: relative;
-    top: 6rem;
-    left: 3rem;
-  }
 
   .aboutmeinfo p,
   h3 {
@@ -717,15 +684,6 @@ this way they appear when line reaches them.*/
     display: block;
   }
 
-  .kortinfo h2 {
-    display: block;
-    margin-top: 4rem;
-    font-size: 1.3rem;
-    min-width: 15rem;
-    position: relative;
-    top: 9rem;
-  }
-
   .aboutmeinfo {
     padding: 2rem;
     margin: 0;
@@ -741,14 +699,6 @@ this way they appear when line reaches them.*/
 
   #mojtaba {
     display: none;
-  }
-
-  .hemlogo {
-    width: 5vh;
-    height: auto;
-    position: relative;
-    left: 12rem;
-    top: 9rem;
   }
 
   .knappen1,
@@ -864,13 +814,6 @@ this way they appear when line reaches them.*/
     left: 0rem;
   }
 
-  .hemlogo {
-    width: 4vh;
-    height: auto;
-    position: relative;
-    left: 5.5rem;
-    top: 7.5rem;
-  }
 
   .pbutton {
     margin-left: 10rem;
