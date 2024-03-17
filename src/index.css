@@ -29,7 +29,7 @@ body {
 .card {
   background-color: #0a151f7a;
   box-shadow: 1px 1px 5px rgba(95, 92, 92, 0.377);
-  max-width: 15rem;
+  max-width: 12rem;
   height: auto;
   display: flex;
   align-items: center;
@@ -175,7 +175,7 @@ header {
 main {
   text-align: center;
   display: flex;
-  width: 100vw;
+  width: 98vw;
   height: 100vh;
   justify-content: center;
 }
@@ -315,7 +315,7 @@ h3 {
   margin: 2rem;
   gap: 1rem;
   padding: 1rem;
-  margin-left: 19rem;
+  margin-left: 20rem;
   margin-right: 2rem;
 }
 
@@ -1033,6 +1033,7 @@ this way they appear when line reaches them.*/
     padding-top: 1rem;
     align-content: center;
     height: fit-content;
+    width: 19rem;
   }
 
   .pop-inner h2 {
@@ -1087,7 +1088,7 @@ this way they appear when line reaches them.*/
 
   .box3 {
     margin-top: 40rem;
-    margin-left: 8rem;
+    margin-left: 10rem;
   }
 
   .btn {
