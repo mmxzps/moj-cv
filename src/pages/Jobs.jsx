@@ -19,12 +19,10 @@ const Jobs = () => {
                   <h2>{j.title}</h2>
                   <small>{j.year}</small>
                   <p className="eduinfo">{j.company}</p>
-                  <span className="right-container-arrow"></span>
                 </div>
               </div>
             ))
           }
-
         </div>
       </main>
     </>

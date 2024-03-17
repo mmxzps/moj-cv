@@ -61,7 +61,6 @@ body {
 .card-body .card-title,
 .card-text,
 .btn {
-  /* border: 1px solid red;-------------------------------- */
   flex-shrink: 3;
 }
 
@@ -154,9 +153,6 @@ header {
   left: 12rem;
 }
 
-
-
-
 main {
   text-align: center;
   display: flex;
@@ -167,7 +163,6 @@ main {
 
 aside {
   width: 30%;
-  /* height: 100vh; */
 }
 
 footer {
@@ -306,9 +301,6 @@ h4 {
 /* ---POP UP MODAL ------------------------------------------ */
 
 .popup {
-  /* display: none;
-  opacity: 0;
-  pointer-events: none; */
   transition: 0.4s;
 
   position: fixed;
@@ -432,10 +424,7 @@ this way they appear when line reaches them.*/
   left: -2%;
 }
 
-/*alinement the pic for left-box*/
-.left-container {
-  left: 4%;
-}
+
 
 /*alinement for right-box*/
 .right-container {
@@ -836,20 +825,8 @@ this way they appear when line reaches them.*/
     left: 118%;
   }
 
-  .left-container {
-    left: 46%;
-  }
-
   .educontainer .edupic {
     right: -30%
-  }
-
-  .left-container-arrow {
-    top: 15px;
-  }
-
-  .right-container-arrow {
-    top: 16px;
   }
 
   .right-container .edupic {
@@ -1014,25 +991,8 @@ this way they appear when line reaches them.*/
     left: 221%;
   }
 
-  .left-container .edupic,
   .right-container .edupic {
     left: -31px;
-  }
-
-  .left-container-arrow,
-  .right-container-arrow {
-    border-right: 15px solid #525151a6;
-    border-left: 0;
-    left: -15px;
-  }
-
-  .left-container {
-    left: 219%;
-  }
-
-  .left-container-arrow,
-  .right-container-arrow {
-    display: none;
   }
 }
 
