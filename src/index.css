@@ -448,7 +448,6 @@ this way they appear when line reaches them.*/
 
 .text-box {
   padding: 1% 1%;
-  /* background: rgb(212 212 212 / 24%); */
   border: 1px solid rgba(169, 169, 169, 0.308);
   position: relative;
   border-radius: 6px;
@@ -457,14 +456,11 @@ this way they appear when line reaches them.*/
   left: -2%;
 }
 
-
-
 /*alinement for right-box*/
 .right-container {
   left: 15.2%;
 }
 
-/*alinement+adjusting the pic for left-box*/
 .educontainer .edupic {
   position: absolute;
   width: 5vh;
@@ -740,32 +736,6 @@ this way they appear when line reaches them.*/
 
   #mojtaba {
     display: none;
-  }
-
-  .knappen1,
-  .knappen2 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .bilden1,
-  .bilden2 {
-    display: block;
-    max-width: 30rem;
-    margin-bottom: 11rem;
-  }
-
-  .bankpic,
-  .apipic {
-    height: 20vh;
-    width: 20vh;
-    border-radius: 5%;
-  }
-
-  .box1,
-  .box2 {
-    margin-bottom: 4rem;
   }
 
   .box3 {
