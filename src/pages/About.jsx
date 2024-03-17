@@ -35,7 +35,7 @@ const About = () => {
             coding. Thank you for taking the time to explore my portfolio, and feel
             free to contact me if you have any questions or would like to discuss
             potential
-            <span id="collab"> collaborations!</span>
+            <span id="collab" className='shine'> collaborations!</span>
           </p>
           
           {/*Modal pop up */}
