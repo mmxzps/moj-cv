@@ -159,7 +159,7 @@ aside {
 
 footer {
   text-align: center;
-  min-height: 5vh;
+  display: none;
 }
 
 footer a:hover {
@@ -242,6 +242,8 @@ a {
   color: white;
   line-height: 1.7rem;
   padding-top: 7rem;
+  height: fit-content;
+  padding-bottom: 4rem;
 }
 
 .aboutmeinfo p,
@@ -253,29 +255,12 @@ h3 {
 
 /*---------------------blinking collab text*/
 .shine {
-  font-size: calc(1px + 1.3vh);
-  line-height: calc(1px);
   text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
     color: #fff6a9;
   text-align: center;
-  animation: blink 12s infinite;
-  -webkit-animation: blink 12s infinite;
+  animation: blink 6s infinite;
 }
 
-@-webkit-keyframes blink {
-  20%,
-  24%,
-  55% {
-    color: #111;
-    text-shadow: none;
-  }
-
-  0%, 19%, 21%, 23%, 25%, 54%, 56%,100% 
-  {
-  text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
-    color: #fff6a9;
-  }
-}
 
 @keyframes blink {
   20%,
@@ -750,7 +735,7 @@ this way they appear when line reaches them.*/
     position: relative;
     bottom: 1rem;
     left: 50%;
-    display: inline-block;
+    display: none;
   }
 
   .popup {
@@ -816,6 +801,7 @@ this way they appear when line reaches them.*/
     font-size: x-small;
     line-height: 1.2rem;
     margin-left: 9rem;
+    padding-bottom: 4rem;
   }
 
   .aboutmeinfo p,
@@ -895,7 +881,7 @@ this way they appear when line reaches them.*/
   }
 
   .box3 {
-    margin-top: 40rem;
+    margin-top: 63rem;
     margin-left: 10rem;
   }
 
