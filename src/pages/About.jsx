@@ -79,7 +79,7 @@ const About = () => {
                   <textarea name="message" placeholder="Your message..." className="contact-input" required defaultValue={""}/>
 
                   <div className="buttonC">
-                  <button type="submit">Submit</button>
+                  <button type="submit" className='subutton'>Submit</button>
                   <a className="close" onClick={toggleModal}>Close</a>
                   </div>
              

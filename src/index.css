@@ -102,16 +102,7 @@ header {
   width: 15vh;
   height: auto;
   border-radius: 5rem;
-}
-
-.-kortinfo {
-  max-width: 45%;
-  display: block;
-  padding: 1rem;
-  margin: 2rem;
-  text-align: center;
-  color: white;
-  padding-top: 0rem;
+  max-width: 170px;
 }
 
 .i-hemlogo {
@@ -120,6 +111,7 @@ header {
   position: relative;
   top: -4rem;
   left: 15rem;
+  max-width: 95px;
 }
 
 .i-kortinfo h2 {
@@ -218,6 +210,8 @@ nav ul li a:hover {
   padding-bottom: 0rem;
   width: 4vh;
   height: 4vh;
+  max-width: 50px;
+  max-height: 50px;
 }
 
 .logo:hover {
@@ -452,6 +446,7 @@ this way they appear when line reaches them.*/
   right: -95px;
   top: 22%;
   z-index: 10;
+  max-width: 60px;
 }
 
 /*alinement the pic for right-box*/
@@ -589,12 +584,14 @@ this way they appear when line reaches them.*/
 }
 
 /* X-button */
-.close {
+.close, .subutton {
   display: inline-block;
   width: 6em;
   background-color: #212529;
   border-radius: 10px;
   margin-top: 10px;
+  margin-right: 1rem;
+  margin-left: 0.7rem;
   text-decoration: none;
   padding: 7px 12px;
 }
@@ -607,16 +604,8 @@ this way they appear when line reaches them.*/
 }
 
 .contact-left button {
-  display: inline-block;
-  width: 6eem;
   border: none;
-  background-color: #212529;
   color: white;
-  border-radius: 10px;
-  margin-right: 1rem;
-  margin-left: 0.7rem;
-  margin-top: 10px;
-  padding: 7px 12px;
 }
 
 .collabH4 {
