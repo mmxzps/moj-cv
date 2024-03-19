@@ -1,11 +1,37 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import './script.js'
 
 const About = () => {
   const [ismodalVisible, setIsMobalVisible] = useState(false);
-  const toggleModal=()=>{
+
+  const toggleModal = () => {
     setIsMobalVisible(!ismodalVisible)
   }
+
+  useEffect(() => {
+    const moj = document.getElementById("collab");
+    if (moj !== null) {
+      moj.addEventListener('click', () => {
+        const modal = document.getElementById("myModal");
+        const span = document.getElementsByClassName("close")[0];
+
+        // show modalpopup
+        modal.style.display = "block";
+
+        // close modalpopup with 'X'
+        span.addEventListener('click', function () {
+          modal.style.display = "none";
+        });
+
+        // closing modalpopup window even when clicking outside the window
+        window.addEventListener('click', function (event) {
+          if (event.target == modal) {
+            modal.style.display = "none";
+          }
+        });
+      });
+    }
+  }, setIsMobalVisible)
   return (
     <>
       <main>
@@ -35,25 +61,28 @@ const About = () => {
             coding. Thank you for taking the time to explore my portfolio, and feel
             free to contact me if you have any questions or would like to discuss
             potential
-            <span id="collab" className='shine'> collaborations!</span>
+            <span id="collab" className='shine' onClick={toggleModal}> collaborations!</span>
           </p>
           
           {/*Modal pop up */}
           <div id="myModal" className="modal">
             <div className="modal-content">
-              <a href="#" className="close"> x </a>
-
               <div className="contact-container">
                 <form action="https://api.web3forms.com/submit" method="POST" className="contact-left" >
                   <div className="contact-left-title">
-                    <h3>Well now that you're here lets connect and collaborate😉</h3>
+                    <h4 className='collabH4'>Well now that you're here lets connect and collaborate</h4>
                     <hr />
                   </div>
                   <input type="hidden" name="access_key" defaultValue="92a387f1-48c3-46e5-af49-ef5f125c3aac"/>
-                  <input type="text" name="name" placeholder="Your Name" className="contact-input" required=""/>
-                  <input type="email" name="email" placeholder="Your Email" className="contact-input" required=""/>
-                  <textarea name="message" placeholder="Your message..." className="contact-input" required="" defaultValue={""}/>
+                  <input type="text" name="name" placeholder="Your Name" className="contact-input" required/>
+                  <input type="email" name="email" placeholder="Your Email" className="contact-input" required/>
+                  <textarea name="message" placeholder="Your message..." className="contact-input" required defaultValue={""}/>
+
+                  <div className="buttonC">
                   <button type="submit">Submit</button>
+                  <a className="close" onClick={toggleModal}>Close</a>
+                  </div>
+             
                 </form>
               </div>
             </div>

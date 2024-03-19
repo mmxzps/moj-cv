@@ -361,7 +361,6 @@ h4 {
   margin-top: 10px;
   padding: 7px 12px;
   background-color: #212529;
-  ;
   border-radius: 10px;
   display: inline-block;
   font-size: 1rem;
@@ -530,28 +529,12 @@ this way they appear when line reaches them.*/
   padding: 25px;
   width: 35%;
   border-radius: 2%;
-  box-shadow: 2px 2px 7px darkgray;
+  box-shadow: 2px 2px 7px rgb(65, 64, 64);
 }
 
-/* X-button */
-.close {
-  color: white;
-  float: right;
-  font-size: 28px;
-  font-weight: bold;
-  text-decoration: none;
-}
-
-.close:hover,
-.close:focus {
-  color: rgb(241, 245, 6);
-  text-decoration: none;
-  cursor: pointer;
-}
-
-.modal:target {
+/* .modal:target {
   display: block;
-}
+} */
 
 .contact-container {
   height: 10vh;
@@ -579,7 +562,13 @@ this way they appear when line reaches them.*/
   padding-left: 25px;
   font-weight: 500;
   color: #aaaaaa;
-  border-radius: 50px;
+  border-radius: 10px;
+  align-self: center;
+}
+
+.buttonC{
+  display: flex;
+  align-self: center;
 }
 
 /*extra adjustment for textarea*/
@@ -591,31 +580,47 @@ this way they appear when line reaches them.*/
 
 /*highlight input box when you click in it*/
 .contact-input:focus {
-  box-shadow: 1px 1px 9px rgb(33, 238, 6);
+  box-shadow: 1px 1px 9px rgb(238, 215, 6);
 }
 
 .contact-input::placeholder {
   color: darkgray;
+  align-self: center;
 }
 
-.contact-left button {
-  display: flex;
-  align-items: center;
-  margin-top: 10px;
-  margin-left: 0.7rem;
-  padding: 10px 30px;
-  background-color: rgba(21, 27, 88, 0.596);
-  color: white;
+/* X-button */
+.close {
+  display: inline-block;
+  width: 6em;
+  background-color: #212529;
   border-radius: 10px;
-  font-size: 1rem;
-  width: max-content;
-  border: none;
-  gap: 10px;
+  margin-top: 10px;
+  text-decoration: none;
+  padding: 7px 12px;
+}
+.contact-left button:hover,
+.close:hover,
+.close:focus {
+  color: rgb(192, 149, 8);
+  text-decoration: none;
   cursor: pointer;
 }
 
-.contact-left h3 {
-  color: yellow;
+.contact-left button {
+  display: inline-block;
+  width: 6eem;
+  border: none;
+  background-color: #212529;
+  color: white;
+  border-radius: 10px;
+  margin-right: 1rem;
+  margin-left: 0.7rem;
+  margin-top: 10px;
+  padding: 7px 12px;
+}
+
+.collabH4 {
+  color: rgb(192, 149, 8);
 }
 
 .skillContainer {
@@ -787,6 +792,11 @@ this way they appear when line reaches them.*/
     left: 132.2%;
   }
 
+    /*eventlistner popup*/
+    .modal-content{
+      width: 55%;
+    }
+
 }
 
 @media screen and (max-width: 600px) {
@@ -934,6 +944,10 @@ this way they appear when line reaches them.*/
   .right-container .edupic {
     left: -31px;
   }
+  /*eventlistner popup*/
+  .modal-content{
+    width: 55%;
+  }
 }
 
 @media screen and (max-width: 560px) {
@@ -941,6 +955,9 @@ this way they appear when line reaches them.*/
   .skillsLogo img {
     height: 4rem;
     margin: 1rem;
+}
+.modal-content{
+  width: 85%;
 }
 }
 
