@@ -1,8 +1,6 @@
-# React + Vite
+<h3>Hello and welcome to my first official portfolio 😊</h3>
+<p>A simple portolio webb page as my first react+vite project in our frontend course. Created with HTML, CSS and a bit of JavaScript</p>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+> [!TIP]
+Try to **type** ${\color{red}-magic-}$ 🪄when you are in home page OR try to **klick** the word ${\color{green}-collaboration-}$ 🫱🏼‍🫲🏼in about me page 😉
+>
