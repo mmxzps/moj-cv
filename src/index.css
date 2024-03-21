@@ -170,7 +170,7 @@ li {
   padding-bottom: 3rem;
 }
 
-nav ul {
+.sidenav ul {
   margin: 0;
   padding: 0;
   height: 100%;
@@ -184,11 +184,11 @@ nav ul {
   align-items: center;
 }
 
-nav ul li {
+.sidenav ul li {
   list-style: none;
 }
 
-nav ul li a {
+.sidenav ul li a {
   display: block;
   text-decoration: none;
   color: rgb(240, 240, 231);
@@ -200,7 +200,7 @@ h3 {
   color: rgb(212, 212, 212);
 }
 
-nav ul li a:hover {
+.sidenav ul li a:hover {
   color: aliceblue;
   text-transform: uppercase;
 }
@@ -721,7 +721,7 @@ this way they appear when line reaches them.*/
     margin-left: 18%;
   }
 
-  nav ul {
+  .sidenav ul {
     width: 9rem;
   }
 
