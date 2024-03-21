@@ -144,6 +144,9 @@ main {
   height: 100vh;
   justify-content: center;
 }
+.navbarContainer{
+  display: none;
+}
 
 aside {
   width: 30%;
@@ -800,6 +803,9 @@ this way they appear when line reaches them.*/
 @media screen and (max-width: 600px) {
 
   /*-------------------------ham menu*/
+  .navbarContainer{
+    display: block;
+  }
   .ham-menu{
     margin-left: 2rem;
     font-size: 2rem;

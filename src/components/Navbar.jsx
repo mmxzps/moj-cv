@@ -7,7 +7,7 @@ const Navbar = () => {
   const [openMenu, setOpenMenu] = useState(false)
   const showMenu = () => setOpenMenu(!openMenu)
   return (
-    <>
+    <div className='navbarContainer'>
       <div className="headerr">
         <Link className="ham-menu">
           <FaIcons.FaBars onClick={showMenu} />
@@ -44,7 +44,7 @@ const Navbar = () => {
             <li><NavLink to="skills" onClick={showMenu}>Skills</NavLink></li>
         </ul>
       </nav>
-    </>
+    </div>
   )
 }
 
