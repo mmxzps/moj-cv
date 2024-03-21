@@ -1,16 +1,15 @@
 import React from 'react'
-import { Outlet, Link, NavLink } from 'react-router-dom'
-import Thumbsup from '../assets/pictures/profb.png'
+import { Outlet } from 'react-router-dom'
 import Aside from '../components/Aside'
 import Footer from '../components/Footer'
-import Header from '../components/Header'
+import Navbar from '../components/Navbar'
 
 
 const Layout = () => {
   return (
     <>
     <Aside/>
-    {/* <Header/> */}
+    <Navbar/>
       <Outlet />
       <Footer/>
     </>

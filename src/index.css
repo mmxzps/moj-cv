@@ -250,13 +250,14 @@ h3 {
 /*---------------------blinking collab text*/
 .shine {
   text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
-    color: #fff6a9;
+  color: #fff6a9;
   text-align: center;
   animation: blink 6s infinite;
 }
 
 
 @keyframes blink {
+
   20%,
   24%,
   55% {
@@ -264,9 +265,15 @@ h3 {
     text-shadow: none;
   }
 
-  0%, 19%, 21%, 23%, 25%, 54%, 56%,100% 
-  {
-  text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
+  0%,
+  19%,
+  21%,
+  23%,
+  25%,
+  54%,
+  56%,
+  100% {
+    text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
     color: #fff6a9;
   }
 }
@@ -561,7 +568,7 @@ this way they appear when line reaches them.*/
   align-self: center;
 }
 
-.buttonC{
+.buttonC {
   display: flex;
   align-self: center;
 }
@@ -584,7 +591,8 @@ this way they appear when line reaches them.*/
 }
 
 /* X-button */
-.close, .subutton {
+.close,
+.subutton {
   display: inline-block;
   width: 6em;
   background-color: #212529;
@@ -595,6 +603,7 @@ this way they appear when line reaches them.*/
   text-decoration: none;
   padding: 7px 12px;
 }
+
 .contact-left button:hover,
 .close:hover,
 .close:focus {
@@ -781,14 +790,96 @@ this way they appear when line reaches them.*/
     left: 132.2%;
   }
 
-    /*eventlistner popup*/
-    .modal-content{
-      width: 55%;
-    }
+  /*eventlistner popup*/
+  .modal-content {
+    width: 55%;
+  }
 
 }
 
 @media screen and (max-width: 600px) {
+
+  /*-------------------------ham menu*/
+  .ham-menu{
+    margin-left: 2rem;
+    font-size: 2rem;
+    background: none;
+    position: absolute;
+    right: 1.5rem;
+    top:2rem
+  }
+  .nav-menu{
+    background-color: rgb(27, 27, 26);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    top: -100%;
+    transition: 850ms;
+    z-index: 99999;
+  }
+  .nav-menu-items{
+    list-style: none;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .nav-menu.activee{
+    top:0;
+    transition: 350ms;
+  }
+  
+  .nav-menu-items li a {
+    color: white
+  }
+
+  .nav-menu-items li a:hover {
+    text-transform: uppercase;
+    text-shadow: 2px 2px 7px rgb(6, 166, 240);
+  }
+
+  aside {
+    display: none;
+  }
+
+  .hlogoContainer{
+    display: flex;
+    position: absolute;
+    gap: 0.5rem;
+    top: 7.5rem;
+    left: 2.9rem;
+  }
+
+  /*---------------------------------header*/
+  .headerr {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 10rem;
+    background-color: rgb(11, 14, 48);
+    align-items: center;
+  }
+
+  .profilepic {
+    margin-top: 0;
+    width: 12vh;
+    height: auto;
+    border-radius: 5rem;
+    max-width: 170px;
+    position: absolute;
+    top:0.5rem;
+    left:2rem
+  }
+  .hnav-mm{
+    display: none;
+  }
+
   .aboutmeinfo {
     max-width: 45%;
     display: flow-root;
@@ -862,11 +953,8 @@ this way they appear when line reaches them.*/
 
   .nameintro {
     position: relative;
-    width: 50%;
-  }
-
-  .i-kortinfo {
-    margin-left: 4rem;
+    padding-top: 0%;
+    padding-right: 30%;
   }
 
   footer {
@@ -933,8 +1021,9 @@ this way they appear when line reaches them.*/
   .right-container .edupic {
     left: -31px;
   }
+
   /*eventlistner popup*/
-  .modal-content{
+  .modal-content {
     width: 55%;
   }
 }
@@ -944,20 +1033,22 @@ this way they appear when line reaches them.*/
   .skillsLogo img {
     height: 4rem;
     margin: 1rem;
-}
-.modal-content{
-  width: 85%;
-}
+  }
+
+  .modal-content {
+    width: 85%;
+  }
 }
 
 @media screen and (max-width: 367px) {
 
-  .skillsLogo  {
+  .skillsLogo {
     flex-direction: column;
     align-items: center;
     padding-top: 10rem;
+  }
 }
-}
+
 /*-----------------Print */
 @media print {
   .box3 {
