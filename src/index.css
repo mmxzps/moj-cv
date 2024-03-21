@@ -838,8 +838,8 @@ this way they appear when line reaches them.*/
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding: 0;
   }
-
   .nav-menu.activee {
     top: 0;
     transition: 350ms;
