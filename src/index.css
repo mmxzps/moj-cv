@@ -825,8 +825,7 @@ this way they appear when line reaches them.*/
     display: flex;
     justify-content: center;
     position: fixed;
-    top: 0;
-    top: -100%;
+    top: -120%;
     transition: 850ms;
     z-index: 99999;
   }
@@ -931,9 +930,10 @@ this way they appear when line reaches them.*/
     color: white;
   }
 
-  .i-kortinfo #mojtaba{
+  .i-kortinfo #mojtaba {
     display: none;
   }
+
   .i-kortinfo h2 {
     color: white;
   }
@@ -1031,7 +1031,7 @@ this way they appear when line reaches them.*/
     height: 100%;
     width: auto;
     align-items: flex-start;
-    margin:0rem;
+    margin: 0rem;
   }
 
   .skillsImgContainer {
@@ -1047,34 +1047,44 @@ this way they appear when line reaches them.*/
     flex-shrink: 3;
     align-items: center;
   }
-}
 
-/*-----------------Print */
-@media print {
-  .box3 {
-    display: inline-block;
-  }
-
-  .profilepic {
-    width: 10vh;
-    height: auto;
+  .skillsLogo img {
+    width: auto;
+    height: 4rem;
+    display: flex;
+    margin: 1rem;
   }
 
-  .aboutmeinfo {
-    max-width: 70%;
-    padding-top: 2rem;
-  }
+  /*-----------------Print */
+  @media print {
+    .box3 {
+      display: inline-block;
+    }
 
-  footer {
-    display: none;
+    .profilepic {
+      width: 10vh;
+      height: auto;
+    }
+
+    .aboutmeinfo {
+      max-width: 70%;
+      padding-top: 2rem;
+    }
+
+    footer {
+      display: none;
+    }
+
+    .card {
+      max-width: 10rem;
+    }
+
+    .cardContainer {
+      display: inline-flex;
+    }
+
+    .box3 {
+      margin-left: 6rem;
+    }
   }
-  .card{
-    max-width: 10rem;
-  }
-.cardContainer{
-  display: inline-flex;
-}
-.box3{
-  margin-left: 6rem;
-}
 }
