@@ -1,5 +1,5 @@
 import React from 'react'
-import { Outlet, Link, NavLink } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 import Thumbsup from '../assets/pictures/profb.png'
 
 const Aside = () => {
@@ -25,6 +25,7 @@ const Aside = () => {
         <li><NavLink to="jobs">Previous Jobs</NavLink></li>
         <li><NavLink to="educations">Educations</NavLink></li>
         <li><NavLink to="skills">Skills</NavLink></li>
+        <li><NavLink to="contact">Contact</NavLink></li>
       </ul>
     </nav>
   </aside>

@@ -42,6 +42,7 @@ const Navbar = () => {
             <li><NavLink to="jobs" onClick={showMenu}>Previous Jobs</NavLink></li>
             <li><NavLink to="educations" onClick={showMenu}>Educations</NavLink></li>
             <li><NavLink to="skills" onClick={showMenu}>Skills</NavLink></li>
+            <li><NavLink to="contact" onClick={showMenu}>Contact</NavLink></li>
         </ul>
       </nav>
     </div>
