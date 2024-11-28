@@ -8,7 +8,7 @@ const Contact = () => {
 
             <ul>
             <li style={{ transform: "none" }}><h2>Contact me</h2></li>
-              <li></li>
+              <li>-</li>
               <li><a href="mailto:mojtaba.mobasheri@hotmail.com">mojtaba.mobasheri@hotmail.com</a></li>
             </ul>
   
